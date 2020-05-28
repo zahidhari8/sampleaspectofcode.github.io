@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title> This is the Javascript switch statements </title>
+		<script type="text/javascript" language="javascript" src="css/htmljavascript1.js"></script>
+	</head>
+	<body>
+			<script type="text/javascript" language="JavaScript">
+				var a,b,c;
+				 a=parseInt(prompt("Please enter your first number"));
+				 b=parseInt(prompt("Please enter your second number"));
+				 c=parseInt(prompt("Please enter your operation from +;-;*;/"));
+				
+			switch(c){
+				case "+" :
+					/*executes this code if the case is true*/
+					c=a+b;
+					document.write("your answer is : "+c);
+					break;
+				case "-" :
+					/*executes this code if the case is true*/
+					c=a-b;
+					document.write("your answer is : "+c);
+					break;
+				case "*" :
+					/*executes this code if the case is true*/
+					c=a*b;
+					document.write("your answer is : "+c);
+					break;
+				case "/" :
+					/*executes this code if the case is true*/
+					c=a/b;
+					document.write("your answer is : "+c);
+					break;
+				default :
+					document.write("enter valid characters in the space given");
+				}
+			</script>
+	</body>
+</html>

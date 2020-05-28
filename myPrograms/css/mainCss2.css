@@ -1,0 +1,71 @@
+body{
+	background-image:url('senery.jpg');
+	background-color:#272727;
+}
+
+#red_p{
+	color:red;
+}
+
+#blue_p{
+	color:blue;
+}
+
+.profile_pic{
+	float:left;
+	margin:10px;
+}
+
+.below{
+	clear:both;
+}
+
+.mom p{
+	color:red;
+}
+
+.daddy p{
+	color:green;
+}	
+
+p:first-letter{
+	color:blue;
+	font-size:30px;
+}
+
+#dad p:last-child{
+	color:blue;
+}
+
+#dad p:before{
+	content:"Tarpe diem";
+	color:violet
+}
+
+#dad p:after{
+	content:"Tarpe diem";
+	color:violet
+}
+
+a{
+	color:orange;
+	text-decoration:none;
+}
+
+a:visited{
+	color:green;
+}
+
+a:hover{
+	color:red;
+	text-decoration:underline;
+}
+
+a:active{
+	color:black;
+	text-decoration:underline;
+}
+
+ul{
+list-style-type:square;
+}

@@ -1,0 +1,32 @@
+<html>
+<body>
+<script type="text/javascript">
+
+function favcolor(mycolor)
+{
+if (mycolor == "Blue")
+{
+alert("You like Blue color.");
+}
+else if (mycolor == "Red")
+{
+alert("You like Red color.");
+}
+else if (mycolor == "Green")
+{
+alert("You like Green color.");
+}
+else 
+{
+alert("You don't like any color.");
+}
+}
+</script>
+<h3>Favorite Color</h3>
+<input type="radio" name="color" value="Blue" onclick="favcolor(this.value);" /> Blue <br />
+<input type="radio" name="color" value="Red" onclick="favcolor(this.value);" /> Red <br />
+<input type="radio" name="color" value="Green" onclick="favcolor(this.value);" /> Green <br />
+<input type="radio" name="color" value="None" onclick="favcolor(this.value);" /> None
+
+</body>
+</html>

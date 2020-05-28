@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> This is a Web page including forms and CSS </title>
+		<meta http-equiv="content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="css/mainCs.css" type="text/css">
+	</head>
+		<body>	
+			<form action="2ndPage.php" method="get">
+				<label for="firstname"> Name: </label>
+				<input type="text" id="firstname" maxlength="20" size="50"/>
+				
+				<h3> Select the sport you are interested in </h3>
+				<input type="checkbox" name="sport" value="football" id="football"/>
+				<label for="football"> Football </label>
+				<input type="checkbox" name="sport" value="Rugby" id="rugby"/>
+				<label for="Rugby"> Rugby </label>
+				<input type="checkbox" name="sport" value="Baseball" id="Baseball"/>
+				<label for="Baseball"> Baseball </label>
+				<h3> Would you be like to be on our mailing list </h3>
+				<input type="radio" name="list" value="yes" id="yes"/><label for="yes"> Yes </label>
+				<input type="radio" name="list" value="no" id="no"/><label for="no"> No </label>
+				
+				<h3> Select your Team! </h3>
+				<select name="teams" multiple size="3">
+					<option value="Bulls"> Bulls </option>
+					<option value="Stormers"> stormers </option>
+					<option value="Sharks"> Sharks </option>
+					<option value="Cheetahs" selected="selected"> Cheetahs </option>
+					<option value="Elves"> Elves </option>
+				</select>
+				
+				<h3> Tell us about yourself! </h3>
+				<textarea rows="10" cols="20">What's on your mind share</textarea>
+				<hr />
+			
+				<label for="username"> Username </label><input type="text" id="username" name="username" maxlength="20" size="30" required="required"/><br/>
+				<label for="password"> Password </label><input type="password" id="password" name="password" maxlength="20" size="30"/><br/>
+				
+				<input type="file" size="40"/><br/>
+				
+				What is your name!<input type="text" name="name"/>
+				<input type="reset" name="reset" value="clear the form">
+				<input type="submit" name="submit" value="Submit">
+				
+			</form>
+		</body>
+</html>

@@ -1,0 +1,76 @@
+<html>
+	<head>
+		<title> This is the Javascript Loop statements </title>
+	</head>
+	<body>
+			<script type="text/javascript" language="JavaScript">
+				
+				var i;
+				for(i=0; i<=10; i++){
+				
+					/*Loop body*/
+					document.write("this is the counter statements. "+i+"<br />");
+				}
+				
+				var pm;
+				document.write("Going to the office<br/>");
+				for(pm=1;pm<=10;pm++){
+					document.write("project in progress<font color='red'>"+pm+"</font> Project finished <br />");
+				}
+				document.write("<b>Going home</b><br />");
+				/*While loop*/
+				var count=0;
+				while (count<=10){
+					/*code to be executed*/
+					document.write("This line is repeating.<font color='red'>"+count+"<br /></font>");
+					count++;
+				}
+				document.write("<hr /><br />");
+				/*Do while loop*/
+				
+				var i=0;
+				do{
+					/*Loop body*/
+					document.write("do while loop iteration <font color='green'>"+i+"</font><br />");
+					i++;
+				}while(i<=10)
+				document.write("<hr/><br/>")
+				
+				
+				/*An example to show the main difference*/
+				/*While loop*/
+				var c=5;
+				while (c<5){
+					/*code to be executed*/
+					document.write("This line is repeating.<font color='red'>"+c+"<br /></font>");
+					c++;
+				}
+				document.write("<hr /><br />");
+				/*Do while loop*/
+				
+				var j=5;
+				do{
+					/*Loop body*/
+					document.write("do while loop iteration <font color='green'>"+j+"</font><br />");
+					j++;
+				}while(j<5)
+				/*Here the value 5 will be executed in dowhile b/c it checks the statements first then condition*/
+				document.write("<hr /><br />");
+				/*example of break statements*/
+				document.write("A loop starts <br />");
+					for(var k=0;k<=10;k++){
+						if(k==5){break;}
+						document.write("The for loop is repeating "+k+"<br/>");
+						}
+				document.write("Loop exit<br/>");
+				/* An example of continue Statement*/
+				document.write("A loop starts <br />");
+					for(var l=0;l<=10;l++){
+						if(l==5){continue;}
+						document.write("The for loop is repeating "+l+"<br/>");
+						}
+				document.write("Loop exit<br/>");
+				
+			</script>
+	</body>
+</html>

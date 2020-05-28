@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title> Welcome to the webpage using javaScript and Html5  </title>
+		</head>
+		<style type="text/css">
+			#div1, #div2{
+			float:left;
+			width:100px;
+			height:35px;
+			margin:10px;
+			padding:10px;
+			border: 1px solid black;
+			
+			}
+		</style>
+		<script type="text" src="css/mainJavascript.js">
+			function allowDrop(ev){
+				ev.preventDefault();
+			}
+			function drag(ev){
+				ev.dataTransfer.setData("Text", ev.target.id);
+			}
+			function drop(ev){
+				var data=ev.dataTransfer.getData("Text");
+				ev.target.appendChild(document.getElementById(data));
+				ev.preventDefault();
+			}
+		</script>
+	<body>
+		<div id="wrapper">
+			<p id="first"> My first Javascript </p>
+			<p id="second"> My second Javascript </p>
+			<p id="first"> My third Javascript </p>	<hr /><br />
+			
+			
+			<video src="zmakeup.mp4" width="600" height="350" poster="zsenery.jpg" autoplay controls loop></video>
+			<br /><hr />
+			
+			<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"> 
+			<img src="zack.png" id="drag1" width="88" height="31" draggable="true" ondragstart="drag(event)">
+			</div>
+			<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+		</div><hr /><br />
+		
+		<audio controls="controls"> 
+		<source src="wildlife.mp3" type="audio/mpeg" />
+		This browser doesnot support Html5 audio!
+		</audio>
+	</body>
+</html>

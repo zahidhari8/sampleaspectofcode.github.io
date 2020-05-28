@@ -1,0 +1,84 @@
+/* Get rid of the defaults*/
+
+*{	/*Selects everything from the webpage*/
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family:sans-serif;
+	text-align:center;
+}
+/* Centering the webpage*/ 
+#center_maker{
+	width:960px; /*Divides the webpage into three parts really well*/
+	border:2px solid white;
+	background-color: white;
+	margin:0px auto; /*Centers the webpage*/
+	text-align:left;
+}
+
+#page_header{
+	border:2px solid gray;
+	margin-top:10px;
+	background-color:white;	
+}
+
+.logo{
+	display:inline;
+	vertical-align:middle;
+}
+
+.head_text{
+	display:inline;
+}
+/*End of header styling lets start navigation styling*/
+#top_nav{
+	border:2px solid red;
+	margin:5px 0px;
+	padding:10px;
+	background-color:red;
+}
+#top_nav ul{
+	list-style-type:none;
+}
+#top_nav ul li{
+	display:inline;
+}
+#top_nav ul li a{
+	padding:10px;
+}
+/*
+*End of Navigation section
+*Start the Section
+*/
+#the_section{ /*Total width 640px*/
+	float:left;
+	margin:0px 10px 10px 0px;/*Top right Bottom Left  10px width*/
+	padding:10px;/*20px over all width for padding*/
+	border:2px solid green;/*4px to add to width*/
+	width:606px;
+	background-color:green;
+}
+/*
+*End section Styling 
+*Start side news styling
+*/
+#side_news{
+	float:left;
+	padding:10px;/* -20px */
+	border:2px solid orange;/* -4px */
+	width:296px;
+	background-color:orange;
+}
+/*
+*End of Side News
+*Start Footer
+*/
+#page_footer{
+	clear:both;
+	border:2px solid black;
+	padding:10px;
+	text-align:center;
+	
+	}

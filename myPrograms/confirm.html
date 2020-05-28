@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function confirm1() 
+{
+   var a = confirm("Are You sure you want to leave this page?")
+   if (a)
+   {
+      alert("Bye bye!")
+      window.location = "http://www.google.com/";
+    }
+else
+   {
+      alert("Thanks for not leaving")
+    }
+}
+</script>
+</head>
+<body>
+<input type="button" onclick="confirm1()" value="Leave this page">
+</body>
+</html>

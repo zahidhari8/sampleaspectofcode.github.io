@@ -1,0 +1,60 @@
+#wrapper{
+	border:1px solid black;
+	width:700px;
+	height:700px;
+	margin:0px auto;
+}
+
+#firstheader{
+	border:1px solid black;
+	height:90px;
+}
+
+nav{
+	border:1px solid black;
+	margin:0px auto;
+	width:350px;
+}
+
+nav li{
+	display:inline;
+	padding:10px;
+}
+
+section{
+	border:1px solid black;
+	width:500px;
+	margin:0px auto;
+}
+
+aside{
+	border:1px solid black;
+	width:100px;
+	height:400px;
+	margin-top:-340px;
+}
+
+article{
+	border:1px solid black;
+	width:390px;
+}
+
+#second{
+	border:1px solid black;
+	height:400px;
+}
+
+
+p[name="second"]{
+	font-size:30px;
+}
+
+p:nth-child(odd){color:red;}
+p:nth-child(even){color:green;}
+
+p[name$="kid"]{color:purple;}
+p[name*="kid"]{color:gray;}
+
+
+#big> p{color:yellow;}
+p.one + p{color:red;}

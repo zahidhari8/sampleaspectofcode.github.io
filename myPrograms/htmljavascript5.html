@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title> This is the Javascript confirmation box </title>
+		<script type="text/javascript" language="javascript" src="css/htmljavascript1.js"></script>
+	</head>
+	<body>
+			<script type="text/javascript" language="JavaScript">
+				
+				var a=parseInt(prompt("Please enter your first number"));
+				var b=parseInt(prompt("Please enter your second number"));
+				var c=parseInt(prompt("Please enter your third number"));
+				if(a>b && a>c){
+					document.write("The greater number is <big><b> "+a+"</b></big>");
+									}
+				else if(b>c && b>a){
+					document.write("The greater number is <big><b> "+b+"</b></big>");
+				}
+				else if(c>a && c>b){
+					document.write("The greater number is <big><b> "+c+"</b></big>");
+				}
+				else{
+					document.write("<big><b> All are equal</b></big>");
+				}
+				
+				
+				
+			</script>
+	</body>
+</html>

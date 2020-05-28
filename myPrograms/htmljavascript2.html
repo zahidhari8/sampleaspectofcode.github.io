@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title> This is the Javascript2 </title>
+	</head>
+	<body>
+			<script type="text/JavaScript" language="JavaScript">
+			var x=5, y="brownish";
+			document.write(x);
+			document.write(y);
+				var jeansp=1900, jeansc="Blue", shirtp=1000, shirtc="White", total=jeansp+shirtp;
+		
+				document.write("I bought a <b>" +jeansc+ " Jeans</b> for " +jeansp+ " and a " +shirtc+ " Shirt for " +shirtp+ " Rupees <br />");
+				document.write(" <br />and the total price is  "+total);	
+				var name="Zak";
+			function alerting(){
+				
+				alert("Times up man! "+name);
+				}
+			function sayHello(){
+				alert("Hello! "+name);
+			}
+			document.write("<br />hay man " + name + " It is working");
+			function xyz(){
+				alert("Hello I am using function and it is working in the browser");
+			}
+			document.write("Hi I am out of function<br/>");
+			
+			var site="a quick brown fox jumps over the lazy white dog"
+			document.write(" The length is "+ site.length);
+			
+			function sayHi(){
+				alert("Hello there!!!<br/>");
+			}
+			function wxyz(first,last,age){
+				alert("Hello"+first+"name is"+last+"he is"+age);
+			}
+			var a=parseInt(prompt("Enter first number"));
+			var a=parseInt(prompt("Enter second number"));
+				function addition(n1,n2){
+					var total=n1+n2;
+					return total;
+				}
+			var res=addition(a,b);
+			document.write("your answer is :"+res);
+		</script>
+		
+		<input type="button" name="xyz" value="press me" onclick="alerting()">
+			<input type="button" name="secabtn" value="cal sy helofxn" onclick="sayHello()"><br /><hr />
+				<input type="button" name="funbtn" value="funx buton" onclick="xyz()"><hr />
+					<input type="button" name="Hitme" value="hitit" onclick="sayHi()"><hr />
+						<input type="button" name="ArgsPars" value="ArgsParms" onclick="wxyz('ZahidAli','Khan',21)"><hr />
+	</body>
+</html>
